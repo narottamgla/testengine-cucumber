@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Order AllocationRuleID="USAG_NAPA" CustomerContactID="987654321" CustomerEMailID="timjohn@gmail.com" CustomerFirstName="John" CustomerLastName="Tim" CustomerPONo="" CustomerPhoneNo="9876543210" DocumentType="0001" EnteredBy="" EnterpriseCode="shruti" EntryType="" OrderAromaStatus="" OrderDate="" OrderName="TO0401025" OrderNo="TO0401025" PaymentStatus="PAID" SellerOrganizationCode="USAG_NAPA" ValidateItem="N" ValidatePromotionAward="N">
+        
+    <PriceInfo Currency="USD" EnterpriseCurrency="USD"/>
+        
+    <PaymentMethods>
+                
+        <PaymentMethod CreditCardExpDate="" CreditCardType="" MaxChargeLimit="10" PaymentReference1="8765678" PaymentReference2="" PaymentReference3="" PaymentType="COD" UnlimitedCharges="N">
+                        
+            <PaymentDetails AuthorizationExpirationDate="2500-01-01" ChargeType="CHARGE" ProcessedAmount="20.00" RequestAmount="20.00"/>
+                    
+        </PaymentMethod>
+            
+    </PaymentMethods>
+        
+    <OrderLines>
+                
+        <OrderLine DeliveryMethod="SHP" GiftFlag="N" LineType="inline" OrderedQty="1.0" PrimeLineNo="1" ShipNode="Napa_STORE">
+                        
+            <Item ItemDesc="Automobile cable" ItemID="U45591" ItemShortDesc="Automobile cable" UnitOfMeasure="EACH"/>
+                        
+            <LinePriceInfo IsPriceLocked="Y" ListPrice="20.00" UnitPrice="20.00"/>
+                        
+            <PersonInfoShipTo AddressLine1="3642 cbe" City="Manchester" Country="US" DayPhone="9876543210" EMailID="timjohn@gmail.com" FirstName="John" IsAddressVerified="N" LastName="Tim" State="LA" ZipCode="34006"/>
+                    
+        </OrderLine>
+            
+    </OrderLines>
+        
+    <PersonInfoBillTo AddressLine1="3642 cbe" City="Manchester" Country="US" DayPhone="9876543210" EMailID="timjohn@gmail.com" FirstName="John" IsAddressVerified="N" LastName="Tim" State="LA" ZipCode="34006"/>
+    
+</Order>

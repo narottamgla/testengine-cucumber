@@ -1,0 +1,31 @@
+<Order AllocationRuleID="USAG_NAPA" EnterpriseCode="USAG_NAPA" SellerOrganizationCode="USAG_NAPA"
+       CustomerContactID="987654321"
+       CustomerEMailID="timjohn@gmail.com" EnteredBy="" OrderNo="TO0401025" OrderDate="" EntryType=""
+       OrderAromaStatus="" ValidatePromotionAward="N" OrderName="TO0401025"
+       CustomerPONo="" DocumentType="0001" ValidateItem="N"
+       CustomerFirstName="John"
+       CustomerLastName="Tim" CustomerPhoneNo="9876543210" PaymentStatus="PAID">
+    <PriceInfo EnterpriseCurrency="USD"
+               Currency="USD"/>
+    <PaymentMethods>
+        <PaymentMethod CreditCardExpDate="" CreditCardType="" MaxChargeLimit="0.00" PaymentReference1="8765678"
+                       PaymentReference2="" PaymentReference3="" PaymentType="COD" UnlimitedCharges="N">
+            <PaymentDetails ProcessedAmount="20.00" ChargeType="CHARGE" AuthorizationExpirationDate="2500-01-01"
+                            RequestAmount="20.00"/>
+        </PaymentMethod>
+    </PaymentMethods>
+    <OrderLines>
+        <OrderLine PrimeLineNo="1" OrderedQty="1.0" GiftFlag="N" LineType="inline" DeliveryMethod="SHP" ShipNode=
+                "Napa_STORE">
+            <Item ItemDesc="Automobile cable" ItemID="U45591" ItemShortDesc="Automobile cable" UnitOfMeasure="EACH"/>
+            <LinePriceInfo IsPriceLocked="Y" UnitPrice="20.00" ListPrice="20.00"/>
+            <PersonInfoShipTo AddressLine1="3642 cbe" Country="US" DayPhone="9876543210" IsAddressVerified="N"
+                              EMailID="timjohn@gmail.com" FirstName="John" LastName="Tim"
+                              City="Manchester" State="LA" ZipCode="34006"/>
+        </OrderLine>
+    </OrderLines>
+    <PersonInfoBillTo AddressLine1="3642 cbe"
+                      Country="US" DayPhone="9876543210" IsAddressVerified="N"
+                      EMailID="timjohn@gmail.com" FirstName="John" LastName="Tim"
+                      City="Manchester" State="LA" ZipCode="34006"/>
+</Order>
