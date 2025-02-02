@@ -11,3 +11,8 @@ Feature: Validate api/vehicles/getallmakes endpoint
     Then User should see response body with below fields and Matcher Type: equalTo
       | Count | Message                        |
       | 11073 | Response returned successfully |
+
+
+    Given User have body as below with request file name as "user.xml"
+      | Order.AllocationRuleID |
+      | 1                      |
