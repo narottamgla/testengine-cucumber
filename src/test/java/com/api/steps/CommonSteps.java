@@ -7,6 +7,7 @@ import com.api.urls.BaseUrl;
 import com.api.urls.EndPoint;
 import com.api.utils.CommonUtils;
 import com.api.utils.RestClient;
+import com.api.utils.XMLUtil;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.restassured.response.Response;
@@ -44,6 +45,12 @@ public class CommonSteps {
     public void userHaveBodyAsBelow(final String requestFileName, final DataTable dataTable) {
         reqRes.setBody(CommonUtils.buildRequestBody(requestFileName, CommonUtils.getModifiableDataList(dataTable).get(0)));
     }
+
+    @Given("User have body as below with request xml file name as {}")
+    public void userHaveBodyAsBelowForXML(final String requestFileName, final DataTable dataTable) {
+        reqRes.setBody(XMLUtil.buildRequestBody(requestFileName, dataTable));
+    }
+
 
 
     @Given("User performed request type: {}, for base url: {}, endpoint: {}, Expected status code: {int}")
